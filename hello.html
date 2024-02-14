@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+         console.log("Yes");
+        var name=document.getElementById("name");
+        console.log(name);
+
+        var a=6;
+        var s="svs";
+        console.log(typeof(s));
+
+        const obj={
+            "name":"nakul",
+            "email":"nakul@1998",
+            "name":"sanek"
+        }
+       
+        console.log(obj.name);
+
+        var c=18;
+        if(c>10 && c<20){
+            console.log("you are elligible for movie");
+        }
+
+        var x=1;
+        switch (5) {
+            case 1:
+              console.log("Your success");
+                break;
+
+                case 2:
+              console.log("Your not success");
+                break;
+        
+            default:
+            console.log("success");
+                break;
+        }
+
+        var v=12;
+if(v%2==0 && v%3==0){
+    console.log("Divisible by 2 & 3"+ v);
+}else{
+    console.log("Not Divisible by 2 & 3"+ v);
+}
+
+function func(){
+console.log("A");
+}
+
+func();
+var s="hello";
+console.log(s.toUpperCase())
+
+
+
+// console.log("Enter the number");
+// var b=prompt("Enter the number");
+// console.log(b);
+
+//Add number in array
+
+const y=[1,2,3,4,5];
+console.log(a);
+y.push(19);
+console.log(y);
+y.shift();
+console.log(y);
+y.unshift(22);
+console.log(y);
+
+console.log(y.sort());
+
+
+
+
+var o=[];
+
+
+for(var v=0;v<y.length;v++){
+    o[v]=a[v];
+
+}
+console.log(o);
+
+// Hoisting
+
+n=10;
+console.log("Hoisting yes the number is ",n);
+var n;
+
+    </script>
+
+</head>
+<body>
+    <h1>
+        This is heading
+    </h1>
+    <p>This is paragraph</p>
+
+    <form >
+       Email: <input type="email" id="name" class="ename"/>
+        Password :<input type="password" id="password" class="epassword"/>
+
+
+        <button type="submit">
+    </form>
+
+
+</body>
+</html>

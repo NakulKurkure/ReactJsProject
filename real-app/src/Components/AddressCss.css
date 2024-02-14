@@ -1,0 +1,8 @@
+.address{
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 2px solid gray; */
+    background-color: rgb(204, 31, 31);
+}

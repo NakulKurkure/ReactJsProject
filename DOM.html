@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+</head>
+<style>
+    #container {
+        background-color: aqua;
+    }
+</style>
+
+<body>
+
+    <h1>Header</h1>
+
+    <p id="container">Paragraph</p>
+
+    <script>
+
+        let arr=[11,22,33];
+        //Performed an operations and iteration purpose.
+        //calls a function for each elements.
+        arr.forEach((values,i)=>{
+            console.log("Index is "+i+"values"+values)
+        });
+
+        console.log("--------------")
+        //creates new array and returned.
+       let s= arr.map((values)=>{
+            console.log(values)
+        return values + 2;
+        });
+
+        console.log(s);
+
+        console.log("--------------")
+
+        let arr2=[11,22,33,0,9,10];
+       var e=arr2.filter((values)=>{
+            return values<10;
+        });
+        console.log(e);
+
+//return single value..
+       var y= arr2.reduce((h1,h2)=>{
+            return h1+h2;
+        });
+    console.log(y)
+        // let a = prompt("Enter number1");
+
+        // let b = prompt("Enter number2");
+
+
+        // let s = parseInt(a)
+        // let v = parseInt(b)
+
+        // if (isNaN(a) && isNaN(b)) {
+
+        //     throw new ArithmethicError("Yeesss ");//Generic Exceptions
+        // }
+
+        // try {
+        //     var c = s / v;
+        //     console.log("the sum of c is " + c);
+        //     // return c;
+            
+        // } catch (error) {
+        //     console.log(error);
+
+        // }finally{
+        //     console.log("Finally...");
+        // }
+
+
+
+
+        //     var a=10,b=20;
+        //    async function sum(a,b){
+        //     c=a+b;
+        //     console.log(c);
+        //     setTimeout(33);
+        //     return c;
+
+        //    }
+
+        //    console.log("Yes")
+        //    async function main(){
+        //     let s= await sum(a,b);
+        //    console.log("Value of c is"+c);
+        //    console.log("No")
+
+        //    }
+
+        // main();
+        // var title=document.getElementById("container");
+        //title.innerText="MYTitle";
+        //    console.log(title);
+        //    title.style.backgroundColor="Blue";
+
+    </script>
+</body>
+
+</html>

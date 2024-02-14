@@ -1,0 +1,98 @@
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.indiv1{
+    /* background-color: rgb(49, 102, 102); */
+    height:300px;
+    width:500px;
+    text-align: center;
+    margin-top: 70px;
+   padding-top: 25px;
+/* border: 2px solid black; */
+   
+   
+}
+
+.smalldiv{
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: 13px;
+    color: brown;
+}
+.indiv1 span{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.btndiv{
+    /* border: 2px solid red; */
+    padding-top: 30px ;
+  text-align: center;
+   
+    
+
+}
+
+button{
+    padding: 10px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 13, 13);
+    border-radius: 10px;
+    /* list-style: none; */
+   
+}
+
+.btns{
+    text-decoration: none;
+    color: black;
+
+}
+
+.indiv1 h3{
+    font-weight: 700;
+    font-size: x-large;
+}
+.indiv2{
+    /* background-color: brown; */
+    height: 350px;
+    width:500px;
+    font-size: medium;
+    margin-top: 60px;
+    padding-top: 0px;
+    /* border:2px solid black; */
+}
+.indiv2 img{
+    height: 350px;
+    width: 500px;
+   
+}
+
+
+
+/* .btn{
+    padding: 9px;
+   margin-right: 300px;
+
+   margin-top: 50px;
+   font-weight: 700 ;
+   font-size: large;
+   border: thick ;
+   border-radius: 10px ;
+   background-color: rgb(231, 22, 22);
+} */ */
+
+
+
+
+
+.para{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 300px;
+    margin-top: 15px;
+    font-weight: 600;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        .bdy{
+            background-color: yellow;
+        }
+        .btn{
+            margin: 20px 20px;
+        }
+    </style>
+</head>
+
+<body id="bdy">
+    
+
+    <!-- <button type="submit" id="btn" onclick=clickbtn()>Click Me</button> -->
+
+    <button type="submit" id="btn" onclick=increase()>Increase</button>
+
+    <button type="submit" id="btn1" onclick=decrease()>Decrease</button>
+<p id="warning"></p>
+    <!-- <input type="text" id="txt" placeholder="value" >0</input> -->
+    <div id="txt">0</div>
+    <!-- <button type="submit" id="btn" onclick=clickbtn()>Click Me</button> -->
+
+
+</body>
+<script>
+let num=0;
+function increase(){
+
+    var p=document.getElementById("btn");
+  console.log(p);
+ 
+  var value=document.getElementById("txt");
+  console.log(value);
+  p.addEventListener('click',()=>{
+
+num=num+1;
+value.innerHTML=num;
+
+console.log(num);
+  });
+ 
+}
+
+function decrease(){
+
+var p=document.getElementById("btn1");
+console.log(p);
+var w=document.getElementById("warning");
+console.log(w);
+var value=document.getElementById("txt");
+console.log(value);
+p.addEventListener('click',()=>{
+if(num<0 || num==0){
+  w.innerHTML="less than 0 are not possible";  
+}else{
+    num=num-1;
+value.innerHTML=num;
+w.innerHTML="Yess ..."; 
+}
+console.log(num);
+});
+
+}
+
+
+    
+// function clickbtn(){
+//   var p=document.getElementById("btn");
+//   console.log(p);
+  
+// var i=document.getElementById("bdy");
+// console.log(i);
+// i.style.backgroundColor="red";
+
+// }
+
+
+</script>
+</html>
